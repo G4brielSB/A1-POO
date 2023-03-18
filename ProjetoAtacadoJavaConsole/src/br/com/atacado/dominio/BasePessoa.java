@@ -61,4 +61,7 @@ public abstract class BasePessoa {
         this.site = site;
         this.dataInclusao = dataInclusao;
     }
+
+    public abstract void Imprimir();
+
 }
