@@ -6,6 +6,9 @@ import br.com.atacado.dominio.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        
+        //System.out.println("Hello world");
+        
         Categoria c1 = new Categoria(1,
                 "Laticinios",
                 LocalDate.now());
@@ -61,5 +64,8 @@ public class App {
 
         c1.setSubcategorias(subs);
 
+        
     }
+
+
 }
